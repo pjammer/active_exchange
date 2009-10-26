@@ -1,6 +1,24 @@
 = active_exchange
 
-Description goes here.
+Active Exchange is a Rails Engine based Gem that is using the XavierMedia API. You can now get daily Exchange rates that are then uploaded into your own ExchangeRate table in the Database for use inside your Rails app.
+
+Using a Rake task, that is ran once a day, you collect all the exchange rate information.
+
+Now inside your rails app, you can convert one currency into another, or save everything into one currency on the fly.
+
+By going to XavierMedia once a day, you get stable rates to use throughout the day, which should be sufficient enough for your online store.
+
+I personally wouldn't use this if my model was, say an F/X trader on a big time exchange where second by second data is needed, however.
+
+== Useage
+
+* add config.gem 'active_exchange' to your environment.rb file
+* Run the rake task : "sudo rake active_exchange:seed" (you may not need sudo... your call)
+  then you will have your migrations in place.
+* Run "rake db:migrate" to migrate the migration files.
+* Run the rake task : "sudo rake active_exchange:daily_seed" to get the latest Exchange Rate data.
+
+You can now integrate this into your app as you see fit.
 
 == Note on Patches/Pull Requests
  
