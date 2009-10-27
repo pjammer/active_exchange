@@ -8,9 +8,9 @@ Gem::Specification.new do |s|
   s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["pjammer"]
+  s.authors = ["nerbie69"]
   s.date = %q{2009-10-26}
-  s.description = %q{A gem that fetches Foreign Exchange rates from XavierMedia, for use in your Rails app.}
+  s.description = %q{Foreign Exchange for your Rails app.}
   s.email = %q{philipjingram@yahoo.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -23,7 +23,12 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "active_exchange.gemspec",
+     "app/models/exchange_rate.rb",
+     "db/migrate/20091021192708_create_exchange_rates.rb",
      "lib/active_exchange.rb",
+     "tasks/daily_exchange_rates.rake",
+     "tasks/data_migration_exchange_rates.rake",
      "test/helper.rb",
      "test/test_active_exchange.rb"
   ]
@@ -31,7 +36,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Foreign Exchange for your rails app}
   s.test_files = [
     "test/helper.rb",
      "test/test_active_exchange.rb"

@@ -13,12 +13,11 @@ I personally wouldn't use this if my model was, say an F/X trader on a big time 
 == Useage
 
 * add config.gem 'active_exchange' to your environment.rb file
-* Run the rake task : "sudo rake active_exchange:seed" (you may not need sudo... your call)
-  then you will have your migrations in place.
+* For now: Copy the rake file and migration into your app's (for rake) lib/task directory and (for migration file)db/migrate
 * Run "rake db:migrate" to migrate the migration files.
-* Run the rake task : "sudo rake active_exchange:daily_seed" to get the latest Exchange Rate data.
+* Run the rake task : "sudo rake active_exchange:daily_seed" to get yesterday's closing Exchange Rate data (When doing today's it's hit and miss).
 
-You can now integrate this into your app as you see fit.
+You can now integrate the data into your app as you see fit.
 
 == Note on Patches/Pull Requests
  
@@ -33,4 +32,4 @@ You can now integrate this into your app as you see fit.
 
 == Copyright
 
-Copyright (c) 2009 nerbie69. See LICENSE for details.
+Copyright (c) 2009 pjammer. See LICENSE for details.

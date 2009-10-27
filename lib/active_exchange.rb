@@ -9,7 +9,7 @@ module ActiveExchange
   # The active_exchange gem is used to go out to XavierMedia and pull quotes for the currencies they offer.
   
   # We'll need to have a task to look for new data and parse it into DB, to cut down calls.
-  def self.retrieve_data(date = Date.today)
+  def self.retrieve_data(date = Date.today - 1)
     url = URI.parse("http://api.finance.xaviermedia.com/api/#{date.year}/#{date.strftime("%m")}/#{date.strftime("%d")}.xml")
     resp = Net::HTTP.get(url)
     xml  = REXML::Document.new(resp)

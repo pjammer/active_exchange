@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "active_exchange"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Foreign Exchange for your rails app}
+    gem.description = %Q{Foreign Exchange for your Rails app.}
     gem.email = "philipjingram@yahoo.com"
     gem.homepage = "http://github.com/nerbie69/active_exchange"
     gem.authors = ["nerbie69"]
