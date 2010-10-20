@@ -32,4 +32,4 @@ You can now integrate the data into your app as you see fit.
 
 == Copyright
 
-Copyright (c) 2009 pjammer. See LICENSE for details.
+Copyright (c) 2009 pjammer. See LICENSE for details. MIT.
