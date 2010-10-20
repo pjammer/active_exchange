@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{Foreign Exchange for your rails app}
+  s.summary = %q{Foreign Exchange for your Rails app}
   s.test_files = [
     "test/helper.rb",
      "test/test_active_exchange.rb"
