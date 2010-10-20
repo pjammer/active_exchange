@@ -10,7 +10,7 @@ By going to XavierMedia once a day, you get stable rates to use throughout the d
 
 I personally wouldn't use this if my model was, say an F/X trader on a big time exchange where second by second data is needed, however.
 
-== Useage
+== Usage
 
 * add config.gem 'active_exchange' to your environment.rb file
 * For now: Copy the rake file and migration into your app's (for rake) lib/task directory and (for migration file)db/migrate
