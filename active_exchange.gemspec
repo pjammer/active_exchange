@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{active_exchange}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["nerbie69"]
-  s.date = %q{2009-10-26}
+  s.date = %q{2009-10-27}
   s.description = %q{Foreign Exchange for your Rails app.}
   s.email = %q{philipjingram@yahoo.com}
   s.extra_rdoc_files = [
@@ -28,7 +28,6 @@ Gem::Specification.new do |s|
      "db/migrate/20091021192708_create_exchange_rates.rb",
      "lib/active_exchange.rb",
      "tasks/daily_exchange_rates.rake",
-     "tasks/data_migration_exchange_rates.rake",
      "test/helper.rb",
      "test/test_active_exchange.rb"
   ]

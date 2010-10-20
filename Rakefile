@@ -8,8 +8,8 @@ begin
     gem.summary = %Q{Foreign Exchange for your rails app}
     gem.description = %Q{Foreign Exchange for your Rails app.}
     gem.email = "philipjingram@yahoo.com"
-    gem.homepage = "http://github.com/nerbie69/active_exchange"
-    gem.authors = ["nerbie69"]
+    gem.homepage = "http://github.com/pjammer/active_exchange"
+    gem.authors = ["pjammer"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
