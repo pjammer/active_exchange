@@ -5,7 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "active_exchange"
-    gem.summary = %Q{Foreign Exchange for your rails app}
+    gem.summary = %Q{Foreign Exchange for your Rails app}
     gem.description = %Q{Foreign Exchange for your Rails app.}
     gem.email = "philipjingram@yahoo.com"
     gem.homepage = "http://github.com/pjammer/active_exchange"
