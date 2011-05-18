@@ -12,10 +12,11 @@ I personally wouldn't use this if my model was, say an F/X trader on a big time 
 
 == Usage
 
-* add gem 'active_exchange' to your GEMFILE (Rails 3)
-* For now: Copy the rake file and migration into your app's (for rake) lib/task directory and (for migration file)db/migrate -- Will fix later hopefully.
+* add code below to your GEMFILE (Rails 3)
+    gem 'active_exchange' 
+* For now: Copy the db/migrate file-- Will fix later hopefully.
 * Run "rake db:migrate" to migrate the migration files.
-* Run the rake task : "sudo rake active_exchange:daily_seed" to get yesterday's closing Exchange Rate data (When doing today's it's hit and miss).
+* Run the rake task : "rake active_exchange:daily_seed" to get yesterday's closing Exchange Rate data (When doing today's it's hit and miss).
 
 You can now integrate the data into your app as you see fit.
 

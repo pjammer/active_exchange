@@ -3,6 +3,6 @@ require 'rails'
 
 module ActiveExchange
   class Engine < Rails::Engine
-    # engine_name :active_exchange
+
   end
 end
