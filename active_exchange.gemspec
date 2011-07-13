@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{active_exchange}
-  s.version = "0.7.0"
+  s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["pjammer"]
-  s.date = %q{2011-05-18}
+  s.date = %q{2011-07-13}
   s.description = %q{Foreign Exchange for your Rails app.}
   s.email = %q{philipjingram@yahoo.com}
   s.extra_rdoc_files = [
@@ -26,18 +26,16 @@ Gem::Specification.new do |s|
     "app/models/exchange_rate.rb",
     "db/migrate/20091021192708_create_exchange_rates.rb",
     "lib/active_exchange.rb",
-    "lib/active_exchange/active_exchange.rb",
     "lib/tasks/daily_exchange_rates.rake",
     "test/helper.rb",
     "test/test_active_exchange.rb"
   ]
   s.homepage = %q{http://github.com/pjammer/active_exchange}
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.7}
+  s.rubygems_version = %q{1.6.2}
   s.summary = %q{Foreign Exchange for your Rails app}
 
   if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
